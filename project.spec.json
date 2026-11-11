@@ -1,0 +1,69 @@
+{
+  "slug": "scooter-service-tracker",
+  "title": "Scooter Service Tracker",
+  "tagline": "Know when your scooter is actually due",
+  "description": "Know when your scooter is actually due.",
+  "category": "Auto",
+  "accent": "#4f46e5",
+  "accent_soft": "#eef2ff",
+  "table": {
+    "name": "services",
+    "singular": "service",
+    "plural": "services",
+    "fields": [
+      {
+        "name": "vehicle",
+        "label": "Vehicle",
+        "type": "text",
+        "required": true,
+        "placeholder": "Activa 6G"
+      },
+      {
+        "name": "odometer_km",
+        "label": "Odometer (km)",
+        "type": "int",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "service_type",
+        "label": "Service type",
+        "type": "text",
+        "required": true,
+        "placeholder": "Oil change"
+      },
+      {
+        "name": "cost",
+        "label": "Cost (₹)",
+        "type": "number",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "serviced_on",
+        "label": "Serviced on",
+        "type": "date",
+        "required": true,
+        "placeholder": ""
+      }
+    ]
+  },
+  "features": [
+    {
+      "icon": "🛵",
+      "title": "Odometer-based reminders",
+      "body": "Log the km reading and see the next interval clearly."
+    },
+    {
+      "icon": "🧾",
+      "title": "Full cost history",
+      "body": "Every rupee you have put into the vehicle, in one place."
+    },
+    {
+      "icon": "🔧",
+      "title": "Service types",
+      "body": "Oil, brakes, tyres — filter what was actually done."
+    }
+  ],
+  "seed": []
+}
